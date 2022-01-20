@@ -9,11 +9,13 @@ function App() {
                 <Conversor MoedaA={'USD'} MoedaB={'BRL'}></Conversor>
                 <Conversor MoedaA={'BRL'} MoedaB={'USD'}></Conversor>
             </div>
+            <hr />
 
             <div className="linha">
                 <Conversor MoedaA={'USD'} MoedaB={'EUR'}></Conversor>
                 <Conversor MoedaA={'EUR'} MoedaB={'USD'}></Conversor>
             </div>
+            <hr />
 
             <div className="linha">
                 <Conversor MoedaA={'BRL'} MoedaB={'EUR'}></Conversor>

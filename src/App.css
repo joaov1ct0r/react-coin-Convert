@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(#503ab5, #463c21);
+}
+
 .App {
     text-align: center;
 }
@@ -9,7 +13,7 @@
 }
 
 .conversor-container {
-    padding: 10px;
+    padding: 11px;
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
