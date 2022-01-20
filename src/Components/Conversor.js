@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Conversor(props) {
     let [UsdValue, setUsdValue] = useState('');
 
-    let [BrlValue, setBrlValue] = useState();
+    let [FinalValue, setFinalValue] = useState();
 
     function handleValue(event) {
         setUsdValue(event.target.value);
@@ -22,7 +22,7 @@ function Conversor(props) {
 
                 let newValue = (parseFloat(UsdValue) * cotacao).toFixed(2);
 
-                setBrlValue(newValue);
+                setFinalValue(newValue);
             });
     }
     return (
@@ -37,7 +37,7 @@ function Conversor(props) {
                 placeholder={props.MoedaA}
             />
             <button onClick={handleConvert}>Converter</button>
-            <h2>Valor Convertido: R${BrlValue}</h2>
+            <h2>Valor Convertido: {FinalValue}</h2>
         </div>
     );
 }
