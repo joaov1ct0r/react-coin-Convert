@@ -5,11 +5,11 @@
 .linha {
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .conversor-container {
-    padding: 20px;
+    padding: 10px;
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
