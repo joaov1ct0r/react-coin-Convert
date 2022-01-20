@@ -1,3 +1,10 @@
+.linha {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+}
+
 .conversor-container {
     padding: 20px;
     max-width: 300px;
