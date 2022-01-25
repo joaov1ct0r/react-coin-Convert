@@ -14,6 +14,9 @@
   <li>React</li>
   <p><code>npx create-react-app react-coin</code></p>
   <br>
+  <li>Dependencias</li>
+  <p><code>npm install</code></p>
+  <br>
 </ul>
 
 <h2>Sobre</h2>
