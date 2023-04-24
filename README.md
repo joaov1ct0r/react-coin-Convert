@@ -8,9 +8,6 @@
   <li>NodeJS</li>
   <p><code>sudo apt install nodejs</code></p>
   <br>
-  <li>NPM</li>
-  <p><code>sudo apt install npm</code></p>
-  <br>
   <li>React</li>
   <p><code>npx create-react-app react-coin</code></p>
   <br>
